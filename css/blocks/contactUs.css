@@ -1,0 +1,65 @@
+@import url(../common.css);
+
+.contactUs__container {
+  max-width: 90rem;
+  margin: 0 auto;
+  background-image: var(--smiling-man-img);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: var(--blue-color);
+}
+
+.contactUs__text-container {
+  box-sizing: border-box;
+  padding: 0 0 0 11.25rem;
+  max-width: 53.5rem;
+  color: var(--white-color);
+}
+
+.contactUs__title {
+  font-size: 1rem;
+  line-height: .7619rem;
+  letter-spacing: .125rem;
+  font-weight: 400;
+  color: var(--white-color);
+  margin: 0;
+  padding: 6.4375rem 0 14.375rem 11.25rem;
+}
+
+.contactUs__container-title {
+  font-size: 4rem;
+  line-height: 5.8594rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contactUs__text {
+  font-size: 2.25rem;
+  line-height: 3.2956rem;
+  font-weight: thin;
+  max-width: 36.1875rem;
+  padding: 4.68755rem 0 2.5rem;
+  margin: 0;
+}
+
+.contactUs__button {
+  font-size: 1rem;
+  line-height: 1.465rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: var(--light-blue-color);
+  min-height: 2.75rem;
+  min-width: 11.5rem;
+  margin: 0 0 2.625rem 10.55rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color .4s ease-in-out;
+}
+
+.contactUs__button:hover {
+  background-color: var(--orange-color);
+  color: var(--white-color)
+}

@@ -1,0 +1,20 @@
+напиши стандатный gitingore для js проекта
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/evgeniy-edu.iml
+
+# misc
+.DS_Store
+
+# IDE
+.idea
+
+# logs
+npm-debug.log

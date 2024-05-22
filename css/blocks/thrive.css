@@ -1,0 +1,41 @@
+@import url(../common.css);
+
+.thrive {
+  background-color: var(--light-blue-color);
+}
+
+.thrive__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.thrive__text-container {
+  color: var(--white-color);
+  max-width: 34.5rem;
+  padding: 9.4375rem 0 5.9375rem 11.1875rem;
+}
+
+.thrive__title {
+  margin: 0 0 4.6875rem 0;
+  font-size: 2.25rem;
+  letter-spacing: 0.125rem;
+}
+
+.thrive__text {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2.1975rem;
+}
+
+.thrive__text-span {
+  font-size: 1.25rem;
+}
+
+.thrive__image {
+  background-image: var(--girl-img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 32.8125rem;
+}

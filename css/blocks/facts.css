@@ -1,0 +1,61 @@
+@import url(../common.css);
+
+.facts {
+  margin-top: 4.8125rem;
+}
+
+.facts__container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 6.4375rem 0 2.625rem;
+  background-image: var(--laughing-man-img);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.facts__text-container {
+  margin: 0 0 0 36.8125rem;
+}
+
+.facts__title {
+  font-size: 1rem;
+  line-height: .7619rem;
+  letter-spacing: .125rem;
+  font-weight: 400;
+  color: var(--blue-color);
+  margin: 0 0 0 36.8125rem;
+}
+
+.facts__text {
+  font-size: 2.25rem;
+  line-height: 3.2956rem;
+  font-weight: bold;
+  color: var(--blue-color);
+  max-width: 42.25rem;
+  margin: 14.0625rem 0 9.5rem;
+}
+
+.facts__text-span {
+  color: var(--light-blue-color);
+}
+
+.facts__button {
+  font-size: 1rem;
+  line-height: 1.465rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: var(--orange-color);
+  min-height: 2.75rem;
+  min-width: 11.5rem;
+  margin: 0 0 2.625rem 36.8125rem;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color .4s ease-in-out;
+}
+
+.facts__button:hover {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}

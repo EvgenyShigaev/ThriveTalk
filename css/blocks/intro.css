@@ -1,0 +1,70 @@
+@import url(../common.css);
+
+.intro {
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-yellow-color);
+}
+
+.intro__container {
+  box-sizing: border-box;
+  padding: 15.0625rem 0 4.6875rem 11.1875rem;
+  min-width: 43.75rem;
+}
+
+.intro__second-container {
+  background: var(--person-img) top right no-repeat, var(--ellipse-img) top right no-repeat;
+  min-width: 46.25rem;
+}
+
+.intro__name {
+  color: var(--light-blue-color);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  min-width: 29.3125rem;
+  margin: 0 0 4rem 0;
+}
+
+.intro__title {
+  color: var(--blue-color);
+  font-size: 3rem;
+  line-height: 3.34rem;
+  text-transform: uppercase;
+  max-width: 30.25rem;
+  margin: 0 0 3.9375rem 0;
+}
+
+.intro__text {
+  color: var(--blue-color);
+  font-size: 1.5rem;
+  line-height: 2.6369rem;
+  font-weight: 500;
+  max-width: 29.3125rem;
+  margin: 0 0 3.9375rem 0;
+}
+
+.intro__btn {
+  min-width: 9.3750rem;
+  min-height: 3.1250rem;
+  background-color: var(--orange-color);
+  border: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: calc(1em / 10);
+  padding: 0;
+  transition: background-color .4s ease;
+  cursor: pointer;
+}
+
+.intro__btn:nth-child(2) {
+  margin-left: 2.3750rem;
+  background-color: transparent;
+  color: var(--orange-color);
+}
+
+.intro__btn:hover {
+  color: var(--white-color);
+  background-color: var(--light-blue-color);
+}

@@ -1,0 +1,25 @@
+@import "../common.css";
+
+.about__container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.about__title {
+  font-size: 1rem;
+  color: var(--blue-color);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 9.75rem 14.0625rem 0 6.625rem;
+}
+
+.about__text {
+  font-size: 1.5rem;
+  line-height: 2.1094rem;
+  color: var(--blue-color);
+  letter-spacing: .5%;
+  margin: 0;
+  padding: 9.375rem 0 0 0;
+  max-width: 36rem;
+}

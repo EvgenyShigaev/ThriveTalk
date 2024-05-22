@@ -1,0 +1,52 @@
+@import url(../common.css);
+
+.practices__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.practices__block {
+  min-width: calc(100% / 3);
+}
+
+.practices__title {
+  font-size: 1.75rem;
+  line-height: 2.0506rem;
+  color: var(--blue-color);
+  margin: 4.6875rem 0 1.75rem 6.5625rem;
+}
+
+.practices__text {
+  max-width: 18.75rem;
+  font-size: 1rem;
+  line-height: 1.5819rem;
+  color: var(--pale-blue-color);
+  margin: 0 0 0 6.5625rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.practices__block {
+  min-width: calc(100% / 3);
+}
+
+.practices__title {
+  font-size: 1.75rem;
+  line-height: 2.0506rem;
+  color: var(--blue-color);
+  margin: 4.6875rem 0 1.75rem 6.5625rem;
+}
+
+.practices__text {
+  max-width: 18.75rem;
+  font-size: 1rem;
+  line-height: 1.5819rem;
+  color: var(--pale-blue-color);
+  margin: 0 0 0 6.5625rem;
+}

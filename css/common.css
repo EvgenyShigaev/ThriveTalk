@@ -1,0 +1,22 @@
+:root {
+  --white-color: #fff;
+  --light-yellow-color: #f4f9e2;
+  --light-blue-color: #62D0DF;
+  --blue-color: #22356F;
+  --orange-color: #F9B640;
+  --light-pink-color: #FFE2DE;
+  --pistachio-color: #C4E769;
+  --regular-blue-color: #0052C1;
+  --violet-color: #8F00FF;
+  --light-gray-violet-color: #DEE1FF;
+  --light-bronze-color: #E9B730;
+  --pale-blue-color: #22356F80;
+  --green-color: #339933;
+  --ellipse-img: url(../../images/introBackgroundImg.png);
+  --person-img: url(../../images/introPerson.png);
+  --girl-img: url(../../images/girlPic.png);
+  --strawberry-img: url(../../images/strawberryPic.png);
+  --laughing-man-img: url(../../images/laughingMan.png);
+  --smiling-man-img: url(../../images/smilingMan.png);
+  --smiling-woman-img: url(../../images/smilingWoman.png);
+}

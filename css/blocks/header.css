@@ -1,0 +1,91 @@
+@import url(../common.css);
+
+.header {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: background-color .4s ease;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 68.75rem;
+    padding: 1.6875rem 11.1875rem .7rem;
+    margin: 0 auto;
+}
+
+.header__home-btn {
+    text-decoration: none;
+    color: var(--light-blue-color);
+    font-size: 1.5rem;
+    line-height: 1.55rem;
+    font-weight: 600;
+}
+
+.header__nav-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    min-width: 15rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav-btn {
+    position: relative;
+    text-decoration: none;
+    color: var(--blue-color);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+}
+
+.header__nav-btn::after {
+    content: '';
+    position: absolute;
+    background-color: var(--blue-color);
+    min-width: 100%;
+    min-height: .0625rem;
+    left: 0;
+    top: 2rem;
+    transform: scaleX(0);
+    transition: transform .2s ease;
+    transform-origin: bottom left;
+}
+
+.header__nav-btn:hover {
+    font-weight: 600;
+}
+
+.header__nav-btn:hover::after {
+    transform: scaleX(1);
+}
+
+.header__contact-btn {
+    background-color: var(--light-blue-color);
+    min-width: 9.375rem;
+    min-height: 3.125rem;
+    border-radius: 3.125rem;
+    border: none;
+    font-weight: 600;
+    padding: 0;
+    color: var(--white-color);
+    font-size: .875rem;
+    text-transform: uppercase;
+    line-height: 1rem;
+    letter-spacing: .0625rem;
+    cursor: pointer;
+}
+
+.header_background {
+    background-color: var(--light-yellow-color);
+    transition: background-color .4s ease;
+}
